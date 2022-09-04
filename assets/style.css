@@ -125,6 +125,13 @@ h2{
     display:inline
 }
 
+.placeholder{
+    display: inline-flex;
+    height: 206px;
+    width: 304px;
+    justify-content: space-between;
+}
+
 #contact{
     border: 3px;
     background-color: white;
