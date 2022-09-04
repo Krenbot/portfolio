@@ -6,6 +6,13 @@
     
 }
 
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 20px 100px 10px 100px;
+    margin: 0 auto;
+}
+
 .test{
     height: 1000px;
     width: 100%;
@@ -25,6 +32,8 @@
     height: 90%;
     display: block;
     margin: 0 auto;
+    letter-spacing: 2px;
+    font-size: x-large;
 }
 
 .logo-container {
@@ -76,6 +85,24 @@
 }
 
 #about-me{
+    flex-direction: row;
     flex-wrap: wrap;
     display: flex
+}
+
+#portfolio{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex
+}
+
+#contact{
+flex-direction: row;
+}
+
+.contact-links{
+    flex-direction: row;
+    justify-content: center;
+    display: flex
+
 }
