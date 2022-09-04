@@ -99,10 +99,26 @@ h2{
 }
 
 #portfolio{
+    display: inline-block;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    display: inline;
+}
+
+
+.portfolio{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.portfolio a{
+    size:0px;
+}
+
+.placeholder{
+    height: 200px;
+    width: 200px;
+    background-color: black;
 }
 
 #contact{
