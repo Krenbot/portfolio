@@ -1,3 +1,8 @@
+:root {
+    --headercolor: var( rgba(210, 180, 140, 0.389));
+    --bodycolor: var(#8CAAD2);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +12,7 @@
 }
 
 body{
-    background-color: #8CAAD2;
+    background-color: var(--bodycolor);
 }
 
 h2{
@@ -17,9 +22,10 @@ h2{
     margin: 0 auto;
 }
 
+/* Header/Navbar CSS */
 .header{
    width: 100;
-   background-color: rgba(210, 180, 140, 0.389);
+   background-color: var(--headercolor);
    display: flex;
    flex: content;
    height: 50px;
@@ -82,6 +88,7 @@ h2{
     color: black;
 }
 
+/* Body CSS */
 .hero{
     margin-top: 25px;
 }
@@ -93,6 +100,7 @@ h2{
     width: 20%;
 }
 
+/* About Me */
 #about-me{
     background-color: white;
     border: 3px;
@@ -112,6 +120,7 @@ h2{
     align-items: center
 }
 
+/* Portfolio */
 #portfolio{
     border: 3px;
     background-color: white;
@@ -133,6 +142,7 @@ h2{
     height:200px
 }
 
+/* Contact */
 #contact{
     border: 3px;
     background-color: white;
