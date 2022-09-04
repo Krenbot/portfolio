@@ -7,13 +7,14 @@
 }
 
 h2{
-    text-align: center;
+    text-align: left;
+    text-transform: uppercase;
     padding: 20px 100px 20px 100px;
     margin: 0 auto;
 }
 
 .header{
-   width: 100%;
+   width: 100;
    background-color: rgba(210, 180, 140, 0.389);
    display: flex;
    flex: content;
@@ -88,6 +89,14 @@ h2{
     width: 20%;
 }
 
+#about-me{
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    align-items: center;
+    margin: 15px;
+}
+
 .about-me{
     display: inline-flex;
     flex-direction: row;
@@ -99,20 +108,17 @@ h2{
 }
 
 #portfolio{
-    display: inline-block;
-    flex-direction: row;
-    justify-content: center;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    align-items: center;
+    margin:15px;
 }
-
 
 .portfolio{
     display: flex;
     align-items: center;
     flex-direction: row;
-}
-
-.portfolio a{
-    size:0px;
 }
 
 .placeholder{
@@ -123,6 +129,11 @@ h2{
 
 #contact{
 flex-direction: row;
+border: 5px;
+border-style: solid;
+border-color: black;
+align-items: center;
+margin: 15px;
 }
 
 .contact-links{
