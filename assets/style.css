@@ -6,6 +6,10 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+body{
+    background-color: #8CAAD2;
+}
+
 h2{
     text-align: left;
     text-transform: uppercase;
@@ -90,7 +94,8 @@ h2{
 }
 
 #about-me{
-    border: 5px;
+    background-color: white;
+    border: 3px;
     border-style: solid;
     border-color: black;
     align-items: center;
@@ -108,7 +113,8 @@ h2{
 }
 
 #portfolio{
-    border: 5px;
+    border: 3px;
+    background-color: white;
     border-style: solid;
     border-color: black;
     align-items: center;
@@ -116,31 +122,22 @@ h2{
 }
 
 .portfolio{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-.placeholder{
-    height: 200px;
-    width: 200px;
-    background-color: black;
+    display:inline
 }
 
 #contact{
-flex-direction: row;
-border: 5px;
-border-style: solid;
-border-color: black;
-align-items: center;
-margin: 15px;
+    border: 3px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    align-items: center;
+    margin: 15px;
 }
 
 .contact-links{
-    padding: 25px;
-    display: flex;
+    display: inline-block;
+    padding: 0 25px;
     text-transform: uppercase;
-    border: 0px;
-    margin: 0,10,0,10;
-    justify-content: space-evenly;
+    margin: 0 10%;
+    font-size: x-large;
 }
