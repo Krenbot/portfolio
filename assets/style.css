@@ -129,7 +129,7 @@ h2{
     display: inline-flex;
     height: 206px;
     width: 304px;
-    justify-content: space-between;
+    align-items: center;
 }
 
 #contact{
