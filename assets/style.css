@@ -79,25 +79,20 @@ h2{
 }
 
 .images{
-    display: flex;
+    display: inline-flex;
     justify-content: left;
 }
 
-/* .about-me{
+.about-me{
+    border: 1px;
+    border-style: solid;
     display: inline-flex;
-    flex-wrap: wrap;
-    margin: 12px;
-    padding: 24px; 
-} */
-
-#about-me{
     flex-direction: row;
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin: 12px;
-    padding: 24px;
-    flex-wrap: wrap;
-    display: flex
+}
+
+.about-me p{
+    display: flex;
+    align-items: center
 }
 
 #portfolio{
