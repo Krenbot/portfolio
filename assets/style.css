@@ -7,7 +7,6 @@
 }
 
 h2{
-    font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     padding: 20px 100px 10px 100px;
     margin: 0 auto;
@@ -19,7 +18,8 @@ h2{
    display: flex;
    height: 50px;
    display: block;
-   font-family: 'Roboto Condensed', sans-serif;
+   border: 2px;
+   border-style: solid;
 }
 
 .inner-header{
@@ -28,7 +28,6 @@ h2{
     display: block;
     margin: 0 auto;
     letter-spacing: 2px;
-    font-size: x-large;
 }
 
 .logo-container {
@@ -55,6 +54,7 @@ h2{
 .navigation{
     float: right;
     height: 100%;
+    font-size: x-large;
 }
 
 .navigation a{
@@ -65,7 +65,7 @@ h2{
 }
 
 .navigation a:last-child{
-    padding-right: 5;
+    padding-right: 1;
 }
 
 .navigation a li{
@@ -79,8 +79,24 @@ h2{
     margin-top: 25px;
 }
 
+.images{
+    display: flex;
+    justify-content: left;
+}
+
+/* .about-me{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 12px;
+    padding: 24px; 
+} */
+
 #about-me{
     flex-direction: row;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 12px;
+    padding: 24px;
     flex-wrap: wrap;
     display: flex
 }
