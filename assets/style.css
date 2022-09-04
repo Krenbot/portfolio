@@ -122,14 +122,15 @@ h2{
 }
 
 .portfolio{
+    box-sizing: border-box;
     display:inline
 }
 
 .placeholder{
-    display: inline-flex;
-    height: 206px;
-    width: 304px;
+    display:inline-flex;
     align-items: center;
+    width: 200px;
+    height:200px
 }
 
 #contact{
