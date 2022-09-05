@@ -102,11 +102,33 @@ main{
 }
 
 section.hero {
-    display:
+    display: flex;
+    flex-flow:column;
+    gap:.5em;
 }
 
+section.card {
+    padding: 1em;
+    border: 3px solid black;
+    background-color: white;
+}
 
+section.card h2{
+    margin-bottom: .5em;
+}
 
+section.card > :is(img:nth-child(2), .img-link) {
+    float: left;
+
+    width: clamp(6em, 20vw, 12em);
+    margin-right: 1em;
+}
+
+section.card .img-link img {
+    width: 100%;
+  }
+
+/* Footer CSS */
 
 
 
