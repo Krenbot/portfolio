@@ -19,13 +19,15 @@ h2{
 
 /* Header/Navbar CSS */
 .header{
-   width: 100;
+   width: 100%;
    background-color: rgba(210, 180, 140, 0.389);
    display: flex;
-   flex: content;
+   flex-wrap: wrap;
+   flex:auto;
    height: 50px;
    border: 2px;
    border-style: solid;
+   resize: none;
 }
 
 .inner-header{
@@ -46,13 +48,11 @@ h2{
 }
 
 .logo-container h1{
-    color:white;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
     font-size: 32px;
     font-weight: 200;
-    color: black;
 }
 
 .logo-container h1 span{
@@ -60,7 +60,9 @@ h2{
 }
 
 .navigation{
-    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
     height: 100%;
     font-size: x-large;
 }
@@ -69,18 +71,18 @@ h2{
     height: 100%;
     display: table;
     float: left;
-    padding: 0 20px;
-}
+} */
 
 .navigation a:last-child{
     padding-right: 1;
 }
 
-.navigation a li{
+.navigation li{
     display: table-cell;
     vertical-align: middle;
     height: 100%;
     color: black;
+    padding: 0 20px;
 }
 
 /* Body CSS */
@@ -116,6 +118,7 @@ h2{
 }
 
 /* Portfolio */
+
 #portfolio{
     border: 3px;
     background-color: white;
@@ -128,13 +131,6 @@ h2{
 .portfolio{
     box-sizing: border-box;
     display:inline
-}
-
-.placeholder{
-    display:inline-flex;
-    align-items: center;
-    width: 200px;
-    height:200px
 }
 
 /* Contact */
@@ -154,3 +150,14 @@ h2{
     margin: 0 10%;
     font-size: x-large;
 }
+
+@media screen and (max-width: 992px) {
+    .navigation li {
+      width: 50%;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .navigation li {
+      width: 100%;
+    }}
