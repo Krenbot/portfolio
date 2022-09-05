@@ -1,13 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
-body{
-    background-color: #8CAAD2;
+a{
+    text-decoration: none;
+    color: inherit
 }
 
 h2{
@@ -16,6 +14,25 @@ h2{
     padding: 20px 100px 20px 100px;
     margin: 0 auto;
 }
+
+:root{
+    --bg-body: hsl(214, 44%, 69%);
+    --bg-header-footer: hsl(214, 9%, 69%);
+    --border-header-footer: 2px solid black;
+}
+
+/* a, button{
+    transition: all .3s ease;
+} */
+
+html{
+    font-size: clamp(12px, 1.5vw + 3px, 18px);
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: var(--bg-body);
+  }
 
 /* Header/Navbar CSS */
 .header{
@@ -71,7 +88,7 @@ h2{
     height: 100%;
     display: table;
     float: left;
-} */
+}
 
 .navigation a:last-child{
     padding-right: 1;
