@@ -5,16 +5,14 @@
   margin: 0;
 }
 
-
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 a{
     text-decoration: none;
     color: inherit
+}
+
+p{ 
+    padding: 2.5vh;
+    justify-content: left;
 }
 
 :root{
@@ -26,7 +24,6 @@ a{
 a, button{
     transition: all .3s ease;
 }
-
 
 html{
     font-size: clamp(12px, 1.5vw + 3px, 18px);
@@ -118,6 +115,7 @@ section.card {
     background-color: white;
 }
 
+
 section.card h2{
     margin-bottom: .5em;
 }
@@ -131,6 +129,10 @@ section.card > :is(img:nth-child(2), .img-link) {
 
 section.card .img-link img {
     width: 100%;
+  }
+
+  .images{
+    max-width: 75%
   }
 
 /* Footer CSS */
@@ -164,4 +166,5 @@ footer a:hover{
 
 footer i {
     font-size: 1.75rem;
+    justify-content: space-between;
 }
