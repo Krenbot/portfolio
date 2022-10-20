@@ -4,6 +4,7 @@
 https://krenbot.github.io/portfolio/
 
 ## Description
+My personal, ongoing portfolio showcasing talent and current learning for professional advancement.
 
 ## Technologies Used
 * HTML
